@@ -10,3 +10,7 @@ Resources:
 - https://autohotkey.com/download/
 - https://autohotkey.com/docs/Scripts.htm#ahk2exe
 - https://autohotkey.com/board/topic/71831-application-url-launch-local-application-from-browser/
+
+---
+Look at:
+- https://stackoverflow.com/questions/38344612/ajax-request-to-local-file-system-not-working-in-chrome
