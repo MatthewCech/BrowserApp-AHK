@@ -1,5 +1,7 @@
 # BrowserApp-AHK
-Autohotkey scripting for permitting a browser to start a local file. Custom setup for compiling and tweaking scripts based on found resoucres. Use case:
+Autohotkey scripting for permitting a browser to start a local file. Custom setup for compiling and tweaking scripts based on found resoucres. 
+
+Usage:
 
 `appurl://path/to/myapp`
 
