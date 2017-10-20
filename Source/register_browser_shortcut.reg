@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\appurl]
-@="URL:AutoHotKey AppURL Protocol"
+@="URL:Browser Local App Protocol"
 "URL Protocol"=""
 
 [HKEY_CLASSES_ROOT\appurl\DefaultIcon]
@@ -12,4 +12,4 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\appurl\shell\open]
 
 [HKEY_CLASSES_ROOT\appurl\shell\open\command]
-@="\"C:\\Run App\\AutoHotKeyAppURL\\appurl.exe\" \"%1\""
+@="\"C:\\AppURL\\appurl.exe\" \"%1\""
