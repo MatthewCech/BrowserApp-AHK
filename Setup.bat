@@ -3,9 +3,15 @@ rem This is designed to compile the application and set up the appropriate syste
 rem The application will be placed on the C drive.
 rem ASSUMPTION: You have the C: drive as your primary drive.
 
+echo == [ Cleaning ]
+cd Build
+call clean_project.bat
+cd ..
+
 echo.
 echo == [ Compiling ]
-if not exist "_build_files" mkdir _build_files
+::if not exist "_build_files" mkdir _build_files THIS LINE IS COMMENTED OUT
+mkdir _build_files
 cd Build
 call compile_ahk_offline_plugin.bat
 cd ..
